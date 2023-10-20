@@ -37,7 +37,7 @@ public class ToCreateAProductTest extends BaseClass{
 	CreatingNewProductPage newPPage=new CreatingNewProductPage(driver);
 	ProductInformationPage pInfoPage=new ProductInformationPage(driver);
 	home.clickOnVendorModule();
-	//Assert.fail();
+	Assert.fail();
 	vPage.clickOnVendorPlusButton();
 	newVPage.enterVendorName(vendorName);
 	newVPage.clickOnSaveButton();
